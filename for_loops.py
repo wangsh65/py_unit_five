@@ -9,8 +9,10 @@ def count(first, last):
     :param second: The final number. Must be included
     :return: A string containing the numbers
     """
-    pass # make sure to delete this line when you write your own function
-
+test = ""
+for x in range(0, 100):
+    test += str(x)
+    print(test)
 
 def main():
     print(count(0, 6))
